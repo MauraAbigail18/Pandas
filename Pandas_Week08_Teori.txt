@@ -1,0 +1,17 @@
+#df.sample ini akan digunakan untuk melakukan random sampling dengan atau tanpa replacement yang akan berisikian 3 buah parameter.
+#Parameter pertama/n merupakan jumlah data yang mau kita sampel, parameter kedua/replace ini bisa bernilai True atau False. Jika bernilai False, berarti 
+kita melakukan sampling tanpa Replacement yang artinya, data-data yang sudah di samping dari populations itu tidak akan kita sampling lagi. Sedangkan kalau 
+nilai replace nya True, berarti data-data yang sudah kita sampel memiliki kesempatan untuk kita sampling ulang. Parameter ketiga/random_state ini akan 
+berkorelasi dengan nilai random number. Nilai dari random_state ini bisa kita isikan dengan nilai Integer berapapun. 
+#Fungsi utama dari random_state ini adalah untuk menjamin agar suatu eksperimen itu bisa direplikasi atau bisa dilakukan ulang dengan hasil yang sama persis.
+#Untuk mengakses nilai yang ditampung dalam suatu variabel pada pemanggilan fungsi query itu bisa dilakukan dengan menampilkan karakter @ diikuti dengan
+nama variabel yang akan kita akses nilainya. 
+#Tipe data ordinal merupakan bagian dari tipe data kategori. Tipe kategori sendiri nanti dibagi menjadi dua yaitu tipe data nominal dan tipe data ordinal,
+namun yang membedakan antara tipe data nominal dan tipe data ordinal adalah tipe data nominal sifatnya murni sebagai label, sedangkan tipe data ordinal ini 
+memiliki tingkatan.
+#Contoh dari data tipe data ordinal adalah buruk, cukup, baik, sangat baik, dingin, sedang, panas, sangat panas atau terik.
+#Kita dapat melakukan plotting sebuah Data Frame dengan menggunakan Pandas Data Frame secara langsung tanpa harus melakukan import Matplotlib terlebih dahulu. 
+Contoh plotting yang bisa kita buat adalah Line plotting, Bar Plotting, Area Plotting, Box Plotting, Histogram Plotting, Kernel Destiny Estimation (KDE) 
+Plotting, dan Scatter Plotting.
+#Scatter Plotting visualisasi yang sangat cocok sekali untuk melihat korelasi antara dua variabel atau antar dua kolom dalam suatu Data Frame, sehingga kita
+perlu menspesifikasikan variabel apa saja atau kolom mana saja yang mau kita perhatikan dan kolomnya harus dua, karena disini kita mau mengamati dua variabel.
