@@ -1,8 +1,0 @@
-#CATATAN
-
-#Kita bisa melakukan resampling data. Proses resampling data pada time series itu bisa kita analogikan sebagai proses pengelompokan ulang data berdasarkan
-interval waktu tertentu.
-#Kita bisa membentuk dummy Data Frame dengan 3 cara yaitu dengan membentuk Data Frame dari dictionary, membentuk Data Frame Dari Numpy Array, dan membentuk Data Frame 
-dengan memanfaatkan pandas.util.testing . 
-#Menggabungkan (merge) 2 Data Frame secara berdampingan dapat dilakukan dengan menggunakan pd.merge() . 
-
