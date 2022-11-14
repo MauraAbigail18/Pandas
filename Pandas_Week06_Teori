@@ -1,0 +1,12 @@
+
+#Fungsi agregasi adalah fungsi yang dikenakan pada sekelompok data dan ini biasanya sangat erat kaitannya dengan mekanisme pengelompokan data atau biasa
+dikenal dengan istilah groupby atau grouping.
+#deskripsi statistik erat hubungannya dengan jumlah baris atau jumlah data.
+#Untuk menampilkan fungsi agregasi tertentu sebaiknya menggunakan fungsi agg() . 
+#Untuk menampilkan data deksriptif atau data statistika deskriptif untuk setiap kelompok yang dihasilkan, maka fungsi yang dapat digunakan adalah describe() .
+#memory_usage = 'deep' digunakan untuk mengkalkulasi sampai dengan objek yang terakhir yang tertampung dalam data frame.
+#Unix time adalah waktu atau penunjuk waktu yang dimulai dari tanggal 1 Januari tahun 1970 dan angka yang direpresentasikan dari Epoch time itu 
+merepresentasikan jumlah detik sejak tanggal 1 Januari tahun 1970
+#pd.Series() terdapat 3 parameter. Parameter pertama sebagai nilai awalnya, parameter kedua sebagai nilai akhirnya, dan parameter ketiga sebagai
+intervalnya.
+

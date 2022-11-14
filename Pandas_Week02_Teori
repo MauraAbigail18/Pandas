@@ -1,0 +1,53 @@
+#CATATAN
+
+#.loc[] berfungsi untuk membalik urutan kolom. Parameter pertama dalam .loc[]
+berfungsi untuk mengatur baris, sedangkan parameter kedua berfungsi untuk 
+mengatur kolom.
+
+#Membalik urutan baris juga dapat menggunakan .loc[], namun disini hanya
+memiliki 1 parameter saja, karena baris berada di ruas pertama dan untuk 
+menyederhanakan penulisan. 
+
+#Membalik urutan baris dan melakukan penyesuaian ulang index dapat dilakukan
+dengan reset_index() .
+
+
+
+#Mengganti nama (label) untuk sebuah atau banyak kolom pada Data Frame dapat 
+dilakukan dengan menggunakan rename() . 
+
+
+
+#Mengembalikan Data Frame ke Data Frame semula dapat dilakukan dengan 
+menggunakan backup.copy(), yang mana parameter deep diisi dengan True.
+#Menghapus (drop) setiap kolom yang mengandung missing values dapat dilakukan
+dengan menggunakan dropna(), dimana parameter axisnya diisi dengan 'colums'.
+#Menghapus (drop) setiap baris yang mengandung missing values dapat dilakukan
+dengan menggunakan dropna(), dimana parameter axisnya diisi dengan 'rows'.
+
+#.isna() akan mengumpulkan semua missing value untuk setiap kolom dari 
+Data Frame kita.
+#.mean() digunakan untuk mengkalkulasi rata-rata atau persentase dari missing
+value yang dimiliki oleh setiap kolom dari Data Frame kita.
+#Menghapus (drop) setiap kolom yang mengandung missing values berdasarkan
+threshold digunakan untuk menimbang-nimbang, jika persentase missing valuesnya
+masih bisa kita toleransi jumlahnya, maka kita tidak perlu membuang kolomnya. 
+Tetapi ketika persentase missing valuesnya sudah terlalu tinggi, maka kolom 
+tersebut akan kita buang.
+
+
+
+#Pandas Series adalah struktur data lain yang dimiliki oleh Pandas. Series
+itu pada dasarnya adalah kolom, jadi setiap kolom dari Pandas memiliki tipe
+data series.
+#Sebuah Data Frame itu terdiri dari sejumlah Series atau sejumlah Pandas 
+Series.
+#Operator == tidak bisa membandingkan dengan sempurna kesamaan dari setiap
+baris yang mengandung nilai NaN (Not a Number).
+#Dengan memanfaatkan method equals(), kita bisa membandingkan dengan sempurna kesamaan dari setiap
+baris yang mengandung nilai NaN (Not a Number). Sehingga cara ini jauh lebih efektif 
+ketimbang ketika menggunakan operator == .
+#Method equals() juga bisa diterapkan ditingkat Data Frame untuk membandingkan
+kesamaan antar dua buah Data Frame atau lebih dengan sempurna.
+
+

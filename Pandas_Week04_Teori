@@ -1,0 +1,10 @@
+#pd.merge() yang kita berikan isi dengan inner di parameter how, akan menggabungkan dua buah data frame, dimana frame yang baru itu akan 
+berisi baris yang terdapat pada kedua data frame sumbernya, bukan terdapat pada salah satu sumbernya, tapi harus terdapat pada kedua data frame sumbernya.
+
+#pd.merge() yang kita berikan isi dengan outer di parameter how, akan menggabungkan dua buah data frame, namun akan menghilangkan nilai-nilai 
+duplikasi pada df sumbernya. 
+
+#to_frame() digunakan untuk mempercantik hasil output dan membentuk hasil ouput menjadi suatu frame.
+#unstack() dapat digunakan untuk memudahkan dalam membaca isi dari tabel.
+
+

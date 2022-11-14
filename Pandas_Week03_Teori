@@ -1,0 +1,24 @@
+#CATATAN
+
+#df.sample ini adalah method yang akan mengambil baris secara acak sesuai dengan proporsi yang di deklarasikan dari baris-baris yang
+dimiliki oleh Data Frame df dan hasilnya akan dibentuk menjadi sebuah Data Frame baru yang akan ditampung pada df yang baru atau variabel
+df yang akan di deklarasikan.
+
+
+
+#Mengubah string menjadi bertipe lowercase dengan menggunakan dengan menggunakan str.lower() .
+#Kita juga dapat mengganti spasi dengan _ dengan menggunakan str.replace(' ','_') .
+#Kita juga dapat memangkas kelebihan spasi di kanan dan kiri dengan menggunakan str.strip() . 
+
+
+
+#di dalam loc[] terdapat 2 parameter. Dimana parameter pertama berfungsi untuk mengatur baris dan parameter keduanya berfungsi untuk mengatur kolom.
+#Perbedaan teknik slicing pada list dan lock adalah pada lock, slicingnya akan dibagi menjadi dua bagian besar, yaitu start index dan end index. Hanya saja
+pada loc[], baik start maupun end index sifatnya adalah inklusif (turut disertakan). Sedangkan pada list, start indexnya inklusif (turut disertakan) dan 
+end indexnya ekslusif (tidak disertakan).
+
+#Kita bisa membentuk sebuah kolom baru yang memiliki tipe datetime yang data-datanya ini dibentuk dari kolom yang berisikan day, month, dan year dengan menggunakan
+pd.to_datetime() . 
+
+
+
