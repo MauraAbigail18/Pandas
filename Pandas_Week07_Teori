@@ -1,6 +1,0 @@
-#Dengan menggunakan pd.read_clipboard(), kita bisa mengakses data yang tersimpan dalam clipboard. 
-#Kolom pertama area seleksi pada spreedsheet, akan selalu digunakan sebagai nama kolom.
-#Explode : akan meledakkan sekumpulan data dimana setiap itemnya akan menjadi baris terpisah atau mandiri.
-#Implode : untuk menyatukan kembali baris-baris yang terpisah berdasarkan kategori pengelompokan tertentu untuk disatukan menjadi suatu list
-
-
