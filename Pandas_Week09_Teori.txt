@@ -1,0 +1,3 @@
+#Arti kumulatif disini adalah jumlah gol saat ini akan ditambahkan dengan keseluruhan jumlah gol sebelumnya.
+#Fungsi dari applymap() adalah untuk menstandarisasi data
+#str.cat() hanya bisa digunakan  untuk memadukan dua nilai yang tertampung dalam dua kolom berbeda selama kedua nilai tersebut memiliki tipe data string.
